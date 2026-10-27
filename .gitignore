@@ -1,0 +1,40 @@
+# Build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/bin/
+/dist/
+weatherreceiver
+
+# Go
+/vendor/
+go.work
+go.work.sum
+coverage.txt
+coverage.html
+*.prof
+
+# Local configuration and secrets
+.env
+.env.*
+*.local
+config.local.*
+
+# Logs
+*.log
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
